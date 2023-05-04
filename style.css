@@ -88,6 +88,12 @@ p {
   margin-bottom: 50px;
   min-width: 200px;
   min-height: 40px;
+  background-color: var(--light-grey);
+  transition: background 200ms;
+}
+
+button:hover{
+  background: var(--whitesmoke);
 }
 
 h3 {
